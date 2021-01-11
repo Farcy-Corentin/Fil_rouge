@@ -58,58 +58,45 @@ La société souhaite avoir un site e-commerce permettant aux clients de visuali
 # Programmer des procédures stockées sur le SGBD - Time :
 | Mission 3     | Taches                                    | Time required | Current Status | Finished |
 |---------------|----------------                           |--------------- |----------------|-----------|
-|3.2.1| Qui renvoie le délai moyen entre la date de commande et la date de facturation | > 5 hours | in progress | []créer procédure
-|3.3| Gérer les vues | > 5 hours |  in progress | [] vue jointure Produits - Fournisseurs
+|3.2.1| Qui renvoie le délai moyen entre la date de commande et la date de facturation | > 5 hours | in progress | [ ]créer procédure
+|3.3| Gérer les vues | > 5 hours |  in progress | [ ] vue jointure Produits - Fournisseurs
 
 
 # Construire la maquette de l'application - Time :
 | Mission 4     | Taches                                    | Time required | Current Status | Finished |
 |---------------|----------------                           |--------------- |----------------|-----------|
-|4.1| Diagramme de cas d'utilisation d'une commande sur le site par un client particulier | > 5 hours | in progress | []diagramme commande []panier
-|4.2| Réaliser la maquette de la page de connexion du site | > 5 hours | in progress | []maquette connexion
+|4.1| Diagramme de cas d'utilisation d'une commande sur le site par un client particulier | > 5 hours | in progress | [ ]diagramme commande [ ]panier
+|4.2| Réaliser la maquette de la page de connexion du site | > 5 hours | in progress | [ ]maquette connexion
 
 # Développer une application web - Time :
 | Mission 5     | Taches                                    | Time required | Current Status | Finished |
 |---------------|----------------                           |--------------- |----------------|-----------|
-|5.1| Réalisez un site e-commerce pour les clients | > 5 hours | in progress | []consulter le catalogue []saisir de nouvelles commandes []visualiser les anciennes commande
-|5.2| Développer des pages web statiques (HTML/CSS) 10 jours | > 5 hours | []index []formulaire d'inscription []catalogue []panier []interface administrateur
+|5.1| Réalisez un site e-commerce pour les clients | > 5 hours | in progress | [ ]consulter le catalogue [ ]saisir de nouvelles commandes [ ]visualiser les anciennes commande
+|5.2| Développer des pages web statiques (HTML/CSS) 10 jours | > 5 hours | in progress | [ ]index [ ]formulaire d'inscription [ ]catalogue [ ]panier [ ]interface administrateur
+|5.3| Création d'un formulaire d'inscription pour le client | [ ]formulaire inscription
+|5.3.1| Vérification de la saisie utilisateur | > 5 jours | in progress | [ ]script vérification formulaire
 
-Le site sera divisé en deux parties :
+# Développer des composants web d'accès aux données - Time :
+| Mission 6     | Taches                                    | Time required | Current Status | Finished |
+|---------------|----------------                           |--------------- |----------------|-----------|
+|6.1| Gestion du CRUD | > 5 hours | in progress | [ ]formulaire ajout produit [ ]formulaire update produit [ ]formulaire delete produit
+|6.1.2| Affichage panneaux administrateur | > 5 hours | in progress | [ ]créer interface administration
+|6.1.3| Mise en place du Framework MVC | > 5 hours | in progress | [ ]création des controler [ ]creation model [ ]création des vues [ ]tests unitaires
 
-4.1.2 - Front-office : contient la partie publique du site (dont la page d'accueil) et un accès à la liste de produits et accès au formulaire d'inscription
-
-4.1.3 - Back-office : c'est la partie privée du site, réservée à l'administrateur, elle permet de gérer les produits et les commandes
-
-### 4.2 - Intégrer des scripts clients (Javascript) 2 jours
-
-***
-
-4.2.1 - Création d'un formulaire d'inscription pour le client.
-
-4.2.2 - Vérification de la saisie utilisateur
-
-### 4.3 - Développer des composants web d'accès aux données 10 jours
-
-***
-
-4.3.1 - gestion du CRUD
-
-4.3.2 - Affichage liste des éléments, l'ajout, la modification et la suppression
-
-4.3.3 - Mise en place du Framework MVC
-
-### 6 - Mettre en œuvre une solution de gestion de contenu ou d'ecommerce 27
-
-*** 
+# Mettre en œuvre une solution de gestion de contenu ou d'ecommerce - Time :
 
 Dans le cadre de sa stratégie S.E.O., la société Village Green veut développer du marketing de contenu autour des produits qu'elle commercialise via un blog en Wordpress (articles sur les nouveaux produits, tests, vulgarisation technique, vie de l'entreprise etc.).
 
-6.1 - Réalisez un thème responsive qui reprend les grandes lignes de la charte graphique du site e-commerce.
+| Mission 7     | Taches                                    | Time required | Current Status | Finished |
+|---------------|----------------                           |--------------- |----------------|-----------|
+|7.1| Réaliser un thème responsive qui reprend les grandes lignes de la charte graphique du site e-commerce | > 5 hours | in progress | [ ]index [ ]blog [ ]formulaire d'inscription
+|7.2| Rôle utilisateur | > 5 hours | in progress | [ ]privilèges employés
+|7.3| Configuration plugin S.E.O. | > 5 hours | in progress | [ ]choix plugin S.E.O. [ ]configuation plugin S.E.O.
+|7.4| La sécurité devra bien sûr être prise en compte | > 5 hours | in progress | [ ]création compte admin [ ]mise en place sauvegarde [ ]configuration de plugin de sécurité
+|7.5| Test des fonctionnalité du blog
 
-6.2 - Les employés pourront écrire des articles sans les publier. Il n'y aura qu'un seul administrateur, lequel se chargera, entre autres tâches, de valider les articles.
-
-6.3 - Un plugin S.E.O. devra être configuré.
-
-6.4 - La sécurité devra bien sûr être prise en compte.
-
-6.5 - Publier le résultat de votre travail sur le serveur. Le site publié doit s'exécuter sans erreur.
+# Publication de l'application - Time :
+| Mission 8     | Taches                                    | Time required | Current Status | Finished |
+|---------------|----------------                           |--------------- |----------------|-----------|
+|8.1| hébergement projet fil rouge (e-commerce,wordpress) sur le compte dev.amorce.org | > 5 hours | in progress | [ ]hébergement e-commerce [ ]hébergement blog
+|8.2| Tester pour voir les erreurs et les corrigées | > 5 hours | in progress | [ ]voir les erreurs [ ]corriger les erreurs
