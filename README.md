@@ -19,91 +19,60 @@ La société souhaite avoir un site e-commerce permettant aux clients de visuali
 
 ***
 
-### 1 - Mettre en place une base de données 5 jours
+# Mettre en place une base de données - Time :
+| Mission 1     | Taches                                    | Time required | Current Status | Finished |
+|---------------|----------------                           |---------------|----------------|-----------|
+|1.1| Elaborer le dictionnaire des données          | > 5 hours  |  | in progress | - [x] ok?
+|1.2| Créer la base de données                      | > 5 hours  |  | in progress | [x] <br/>[ ] item2<br/>[ ] item2<br/>[ ] item2
+|1.2.1| Realiser le MCD                             | > 5 hours  |  | in progress | <ul><li>- [x] item1</li><li>- [ ] item2</li></ul>
+|1.2.2| Ecrire le script de creation BDD            | > 5 hours  |  | in progress | <ul><li>[x] item1</li><li>[ ] item2</li></ul>
+|1.2.4| Création plusieurs profils de connexion / autorisation * | > 5 hours  |  | in progress | [x] item1<br/>[ ] item2<br/>[ ] item2<br/>[ ] item2
+|1.2.5| Alimenter la base (Faker)                   | > 5 hours  |  | in progress | [x] item1<br/>[ ] item2<br/>[ ] item2<br/>[ ] item2
+|1.2.6| Création des procédures                     | > 5 hours  |  | in progress | [x] item1<br/>[ ] item2<br/>[ ] item2<br/>[ ] item2
+|1.2.6| Test de la restauration                     | > 5 hours  |  | in progress | [x] Vérification fonctionnement <br/>[ ] Effectuer des données effacées<br/>[ ] Ajout d'un script (cron)<br/>[ ] Rapport de vérification
+```
+*
+- Profil visiteur : 
+    - Lecture sur le catalogue
+- Profil client : 
+    - lecture sur toute la base (insert, update des commandes et client)
+- Profil gestion :
+    - lecture, criture dans la base
+- Profil utilisateur/developpeur
+    - Gestion + création + suppression
+```
 
-***
-
-1.1 - Elaborer le dictionnaire de données
-
-1.2 - Créer la base de données
-
-1.2.1 - Réaliser le MCD du site e-commerce ✅
-
-1.2.2 - Ecrire le script de création de la base de donnée
-
-1.2.4 - Créations de plusieurs profils de connexion et décliner les autorisations nécessaires
-
-Profil visiteur : lecture sur le catalogue
-Profil client : lecture sur toute la base (insertion et mise à jour dans commande et client)
-Profil gestion : lecture/écriture dans la base
-Profil administrateur (ou développeur) : comme gestion + création et suppression d'objet
-
-1.2.5 - Alimenter la base de tests
-
-1.2.6 - Création des procédures pour assurer les sauvegardes de la base de données
-
-1.2.7 - Test de la restauration
-
-### 2 - Manipuler la base de données 5 jours
-
-***
-
-2.1 - Formaliser des requêtes à l'aide du langage SQL
-
-2.1.1 - Pour chacune des interrogations demandées, créez un script contenant la ou les requêtes nécessaires
-
-2.1.2 - Exportation des tables principales vers des tableaux d'un tableur et le contenu du résultat de vos requêtes
-
-Requêtes à prévoir :
-
-2.1.3 - chiffre d'affaires hors taxes généré pour l'ensemble et par fournisseur
-
-2.1.4 - liste des produits commandés pour une année sélectionnée (référence et nom du produit, quantité commandée, fournisseur)
-
-2.1.5 - liste des commandes pour un client (date de commande, référence client, montant, état de la commande)
-
-2.1.6 - répartition du chiffre d'affaires hors taxes par type de client
-
-2.1.7 - lister les commandes en cours de livraison
+# Manipuler la base de données - Time :
+| Mission 2     | Taches                                    | Time required | Current Status | Finished | 
+|---------------|----------------                           |--------------- |----------------|-----------|
+|2.1| Formaliser des requetes SQL          | > 5 hours  |  | in progress | [ ] Creation des requetes (INSERT, UPDATE, DELETE)
+|2.1.1| Pour chacune des interrogations demandées, créez un script contenant la ou les requêtes nécessaires | > 5 hours  |   in progress | [ ] créer un script contenant la ou les requêtes nécessaires
+|2.1.2| Exportation des tables principales vers des tableaux d'un tableur et le contenu du résultat de vos requêtes | > 5 hours  |  in progress | [ ] exporter la base en .csv <br/>[ ] le résultat des requête dans un tableau excel
+|2.1.3| chiffre d'affaires hors taxes généré pour l'ensemble et par fournisseur | > 5 hours  |  in progress | [ ] HT global<br/>[ ] par fournisseur</li></ul>
+|2.1.4| liste des produits commandés pour une année sélectionnée  | > 5 hours  |  in progress | [ ] référence <br/>[ ] nom du produit<br/>[ ] Quantité<br/>[ ] fournisseur
+|2.1.5| liste des commandes pour un client | > 5 hours  | in progress | [ ] Date<br/>[ ] réference<br/>[ ] montant <br/>[ ] Etat commande
+|2.1.6| répartition du chiffre d'affaires hors taxes par type de client | > 5 hours  |  in progress | 
+|2.1.7| lister les commandes en cours de livraison | > 5 hours  | in progress | [ ] toutes les commandes <br/>[ ] commandes crées<br/>[ ] commandes terminer <br/>[ ] Rapport de vérification
 
 
-### 2.2 - Programmer des procédures stockées sur le SGBD 2 jours
+# Programmer des procédures stockées sur le SGBD - Time :
+| Mission 3     | Taches                                    | Time required | Current Status | Finished |
+|---------------|----------------                           |--------------- |----------------|-----------|
+|3.2.1| Qui renvoie le délai moyen entre la date de commande et la date de facturation | > 5 hours | in progress | []créer procédure
+|3.3| Gérer les vues | > 5 hours |  in progress | [] vue jointure Produits - Fournisseurs
 
-***
 
-Création des procédures stockées :
+# Construire la maquette de l'application - Time :
+| Mission 4     | Taches                                    | Time required | Current Status | Finished |
+|---------------|----------------                           |--------------- |----------------|-----------|
+|4.1| Diagramme de cas d'utilisation d'une commande sur le site par un client particulier | > 5 hours | in progress | []diagramme commande []panier
+|4.2| Réaliser la maquette de la page de connexion du site | > 5 hours | in progress | []maquette connexion
 
-2.2.1 - qui renvoie le délai moyen entre la date de commande et la date de facturation
-
-2.3 - Gérer les vues
-
-2.3.1 - Créez une vue correspondant à la jointure Produits - Fournisseurs
-
-### 3 - Construire la maquette de l'application 5 jours
-
-*** 
-
-3.1 - Représentez le diagramme de cas d'utilisation d'une commande sur le site par un client particulier. La notion de panier doit y apparaître
-
-3.2 - Réalisez la maquette de la page de connexion du site
-
-### 4 - Développer une application web 
-
-***
-
-Réalisez un site e-commerce pour les clients particuliers qui permet de :
-
-4.0.1 - consulter le catalogue
-
-4.0.2 - saisir de nouvelles commandes
-
-4.0.3 - visualiser les anciennes commandes
-
-### 4.1 - Développer des pages web statiques (HTML/CSS) 10 jours 
-
-***
-
-4.1.1 - Réaliser une page d'accueil pour votre projet ✅
+# Développer une application web - Time :
+| Mission 5     | Taches                                    | Time required | Current Status | Finished |
+|---------------|----------------                           |--------------- |----------------|-----------|
+|5.1| Réalisez un site e-commerce pour les clients | > 5 hours | in progress | []consulter le catalogue []saisir de nouvelles commandes []visualiser les anciennes commande
+|5.2| Développer des pages web statiques (HTML/CSS) 10 jours | > 5 hours | []index []formulaire d'inscription []catalogue []panier []interface administrateur
 
 Le site sera divisé en deux parties :
 
