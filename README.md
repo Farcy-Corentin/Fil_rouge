@@ -93,7 +93,7 @@ Dans le cadre de sa stratégie S.E.O., la société Village Green veut développ
 |7.2| Rôle utilisateur | > 5 hours | in progress | [ ]privilèges employés
 |7.3| Configuration plugin S.E.O. | > 5 hours | in progress | [ ]choix plugin S.E.O. [ ]configuation plugin S.E.O.
 |7.4| La sécurité devra bien sûr être prise en compte | > 5 hours | in progress | [ ]création compte admin [ ]mise en place sauvegarde [ ]configuration de plugin de sécurité
-|7.5| Test des fonctionnalité du blog
+|7.5| Test des fonctionnalité du blog | > 5 hours | in progress | [ ]publier un article [ ]valider articles
 
 # Publication de l'application - Time :
 | Mission 8     | Taches                                    | Time required | Current Status | Finished |
